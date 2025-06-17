@@ -1,4 +1,8 @@
 # README
+This is a project made by vitaoisgod when learning Rails through THE ODIN PROJECT.
+
+17-06-2025
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
