@@ -1,16 +1,16 @@
-<form action="/user" method="post" accept-charset="UTF-8">
+<form action="/user" method="post" accept-charset="UTF-8" data-turbo="false">
     <input type="hidden" name="authenticity_token" value= "<%= form_authenticity_token %>">
     <div>
         <label for="username">Username</label>
-        <input type="text" id="username" name="username">
+        <input type="text" id="username" name="user[username]">
     </div>
     <div>
         <label for="password">Password</label>
-        <input type="password" id="password" name="password">
+        <input type="password" id="password" name="user[password]">
     </div>
     <div>
         <label for="email">Email</label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="user[email]">
     </div>
 
     <button type="submit"> Submit</button>
